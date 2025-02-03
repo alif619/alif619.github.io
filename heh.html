@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BORANG PENDAFTARAN</title>
+</head>
+<body>
+    <h2>Form</h2>
+    <form action=" https://dev.fare4z.com" method="POST" enctype="multipart/form-data" name="borang">
+        <p>
+        <label for="Name">Nama peserta</label>
+        <input type="text" id="nama" name="nama" placeholder=" Enter Your Name" required>
+        </p>
+        <p>
+            <label for="Nombor Kad Pengenalan">Nombor Kad Pengenalan</label>
+            <input type="text" id="nama" name="nama" placeholder=" Enter Your Kad Pengenalan" required>
+        </p>
+        <p>
+            <label for="date">Tarikh Lahir:</label>
+            <input type="date"  name="date" >
+    
+            </p>
+            <p>
+                <label for="umur">Umur:</label>
+                <input type="number"  name="age" placeholder=" Your Age">
+        
+                </p>
+                <p>
+                    <label for="gender">Jantina:</label>
+                    <input type="radio"  name="gender" value="Lelaki" >Lelaki
+                    <input type="radio"  name="gender" value="Perempuan" >Perempuan
+            
+                    </p>
+        <p>
+        <label for="email">Email:</label>
+        <input type="email"  name="email" placeholder=" Email Adress">
+
+        </p>
+        <p>
+            <label for="phone">Phone Number:</label>
+            <input type="test" value="01" required>
+        </p>
+        <p>
+            <label for="Alamat Rumah">Alamat Rumah:</label>
+            <textarea id="Alamat Rumah" name="Alamat Rumah" rows="4" cols="30"></textarea>
+        </p>
+        <p>
+            <label for="Status Belajar">Status Belajar:</label>
+            <select id="Status Belajar" name="Status Belajar">
+            <option value="Aktif">Aktif </option>
+            <option value="Tidak Aktif">Tidak Aktif </option>
+        </p>
+
+                <p>
+                <label for="department">Department:</label></br>
+                <input type="checkbox" value="HTML" name="Department[]">HTML</br>
+                <input type="checkbox" value="CSS" name="Department[]">CSS</br>
+                <input type="checkbox" value="PHP" name="Department[]">PHP</br>
+                
+
+                </p>
+               
+                <P>
+                    <label for="Profile Photo">Gambar Profie:</label>
+                    <input type="file" name="uploadfile">
+                </P>
+                <p>
+                    <label for="kata laluan">Password:</label>
+                    <input type="password"  name="kata laluan" placeholder=" Please Enter Your Password" required>
+                    </p>
+            
+        <p>
+            <button type="submit">Hantar</button>
+            <button type="submit">Kosongkan</button>
+        </p>
+    </form>
+    
+</body>
